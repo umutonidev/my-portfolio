@@ -1,0 +1,41 @@
+#eduheader{
+    display: flex;
+    flex-direction: row;
+    justify-items:center;
+    justify-content: space-between;
+    background-color:#fff;
+    
+    margin-bottom:3px;
+    border:4px solid rgb(229, 230, 236);
+
+}
+.education{
+    width: 99%;
+    background-color: white;
+}
+.info {
+    font-size: larger;
+    
+    display: none;
+    height: 0;
+    overflow: hidden; /* Add this so that even if content overflows its height, it won't be shown */
+    transition: height 0.3s ease; /* This will make the opening smooth */
+    border: 3px solid rgb(200, 200, 200);
+}
+
+
+.level{
+    margin-bottom:6px;
+    border: 3px solid rgb(200, 200, 200);
+}
+
+#action {
+    background:#EA4335;
+    z-index: 1;
+    color:white;
+    padding:6px 12px;
+    border: 3px solid rgb(200, 200, 200);
+    border-radius: 5px  ;
+    outline:none ;
+   
+}

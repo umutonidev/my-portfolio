@@ -1,0 +1,35 @@
+.btn.btn2{
+    display: inline-block;
+    background:#EA4335;
+    outline: none;
+  }
+    .contact-right form{
+      width: 100%;
+    }
+    form .btn2{
+        padding: 14px 60px;
+        font-size: 18px;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+      .btn {
+        color:white;
+        display: block;
+        margin: 50px auto;
+        outline: none;
+        width: fit-content;
+        background:#EA4335;
+        padding: 14px 50px;
+        border-radius: 20PX;
+        text-decoration: none;
+        transition: all 0.5s;
+      }
+      .btn:hover, .btn.btn2:hover  {
+        transform: scale(1.1);
+      }
+      .btn:focus, .btn.btn2:focus{
+        background:#f38e85 ;
+        transform: translateY(-5px); 
+    }
+      
+      

@@ -1,0 +1,33 @@
+#eduheader{
+    display: flex;
+    flex-direction: row;
+    justify-items:center;
+    justify-content: space-between;
+    background-color: blue;
+    
+    margin-bottom:3px;
+
+
+}
+.education{
+    width: 99%;
+    background-color: rgb(128, 121, 121);
+}
+.info {
+    font-size: larger;
+    
+    display: none;
+    height: 0;
+    overflow: hidden; /* Add this so that even if content overflows its height, it won't be shown */
+    transition: height 0.3s ease; /* This will make the opening smooth */
+}
+
+
+.level{
+    margin-bottom:3pxpx;
+}
+#action {
+    background-color: brown;
+    z-index: 1;
+    font-size: 60px;
+}

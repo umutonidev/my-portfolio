@@ -1,0 +1,114 @@
+.allsvg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.1px;
+  
+  }
+  .allsvg .card{
+  position: relative;
+  width: 160px;
+  height: 25px;
+  /*   */
+  display: flex;
+    justify-content: center;
+    align-items: center;   
+  }
+  
+  .allsvg .card .percent{
+     position: relative;
+     width:75px;
+     height: 75px;
+     background-color: rgb(15, 3, 42);
+  
+  } 
+  .allsvg .card .percent svg{
+  position: relative;
+  width:75px;
+  height: 75px;
+  transform: rotate(270deg);
+  
+  }
+  .allsvg .card .percent svg circle{ 
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke: #000;
+    transform: translate(5px, 5px) ; 
+  
+  }
+  .allsvg .card .percent svg circle:nth-child(2) {
+   stroke:var(--clr); 
+   stroke-dasharray: 220;
+   stroke-dashoffset: calc(220 - (220 * var(--num)) /  100); 
+  animation: fadeIn 1s linear forwards;
+  animation-delay: 2.5s;
+  }
+  @keyframes fadeIn{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+  }
+  .dot
+  {position: absolute;
+  /* background:rgb(235, 228, 228); */
+  inset:5px;
+  transform: rotate(calc(3.6deg *  var(--num))); 
+  z-index:  3;
+  animation:animateDot 2s linear forwards ;
+  }
+  @keyframes animateDot {
+  0%{
+  transform: rotate(0deg);  
+  }
+  100%{
+    transform: rotate(calc(3.6deg * var(--num)) );
+  }  
+    
+  }
+  .dot::before{
+  content: '';
+  position: absolute;
+  
+  top: -5px;
+  left: 50% ;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--clr);
+  box-shadow: 0 0 10px var(--clr ),0 0 30px var(--clr);
+  
+  }
+  .number{
+     position:absolute;
+     inset: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+  } 
+  .number h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-weight: 30;
+    font-size:1.25em ;
+  
+  }
+  .number p{
+    font-weight:15;
+    font-size: 0.375em;
+     
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:rgba( 255,255,255,0.75);
+  
+  }
+   

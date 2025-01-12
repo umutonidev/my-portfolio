@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fridaus UMUTONIWASE.com portfolio</title>
+
+    <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="btn.css">
+    <link rel="stylesheet" href="education.css">
+    <link rel="stylesheet" href="/css/responsiveness.css">
+     <link rel="stylesheet" href="recently.css">
+    <script src="https://kit.fontawesome.com/96a4ee7c55.js" crossorigin="anonymous"></script>
+
+</head> 
+
+<body>
+     <nav>
+        <div class="nav-container">
+        <div class="mylogo  brand"><span>Fridaus</span></div> <i class="fa-solid fa-bars" onclick="openmenu()" id="repo"></i>
+        <ul class="nav-list" id="sidemenu">
+            <!-- <i class="fas closenav" onclick="closemenu()">X</i>  -->
+            <li id="byihariye"><a href="#skills"> <i class="fas closenav" onclick="closemenu()">X</i></a></li>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills">skills</a></li>
+               
+                
+               
+            </ul>
+
+        </div>
+       
+    </nav>
+    <!-- ========================header======================== -->
+    <div id="header">
+        <div class="container">
+        <div class="header-text">
+                <p>UI/WEB Designerd</p> 
+                <h1>Hi,<br>i'm<span><br>Fri</span>daus<br> from  Rwanda</h1>
+            </div>
+        </div>
+    </div>
+     <!-- About Section -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pic.png" alt="UMUTONIWASE">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                      I am a creative designer and developer,
+                      who aims to work with small businesses 
+                      and marginalized communities to bring
+                      their passions to life. I offer 
+                      design and development services 
+                      for web applications
+                      or websites!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab( 'skills')">skills</p>
+                        <p class="tab-links" onclick="openTab('education')">education  </p>
+                        <p class="tab-links" onclick="openTab('experience')">experience  </p>
+                    </div>
+                  <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br> Web App interfaces</li>
+                            <li><span>App Development</span><br> Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-current</span><br> UI/UX  TRAINING at University of Rwanda KIGALI campus</li>
+                            <li><span>2024-2025</span><br> Working on different class and academic projects</li>
+                            <li><span>2022-2023</span><br> Working on my own projects</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        
+                        <div class="education">
+                          <div class="level">
+                              <div id="eduheader">
+                                  <div class="prim">primary school</div>
+                                  <div class="pri" id="action" onclick="isshoworhide()">view</div>
+                              </div>
+                              <div class="info" id="pri">
+                                <ul>
+                                    <li><span>2015</span> <br>primary school completion</li></ul>
+                                 
+                              </div>
+                          </div>
+                          <div class="level">
+                              <div id="eduheader">
+                                <div class="prim">secondary school</div>
+                                  <div class="sec" id="action" onclick="isshoworhide()">view</div>
+                              </div>
+                              <div class="info" id="sec">
+                                <ul>
+                                    <li><span>2022</span><br> Senior 6 certificate in MPC</li></ul>
+                              </div>
+                          </div>
+                          <div class="level">
+                              <div id="eduheader">
+                                <div class="prim">University school</div>
+                                  <div class="uni" id="action" onclick="isshoworhide()">view</div>
+                              </div>
+                              <div class="info" id="uni">
+                                <ul><li><span>2024</span><br> Bachelor of Science in Electronics and Telecommunication 
+                                    Engineering (Electronics and Telecommunication Engineering) from University 
+                                    of Rwanda</li></ul>
+                              </div>
+                          </div>
+                      </div>
+                  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+        
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2><b>Design</b> </h2>
+                    <p>
+                        I'm a web developer with a 
+                      focus on the MERN stack,
+                       but still exploring other
+                      technologies and
+                      frameworks that catch my
+                      for a developer 
+                      to add to your team,
+                     I'd love to hear from you!
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div> 
+                    <i class="fa-solid fa-crop"></i>
+                    <h2><b>UI/UX Design</b></h2>
+                    <p>
+                        App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app's flow and structure, and make stylistic choices from colors to fonts. Designers base choices on user research and feedback.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2><b>APP Design</b></h2>
+                    <p>
+                        I'm a seasoned graphic designer that has worked 
+                        on a variety of projects. I can provide detailed 
+                        insights about my experience and talents that make 
+                        me suitable for this role, but I'm mostly interested 
+                        in Design. It's all I think about all the time.
+                        I appreciate what your organization is achieving 
+                        in the industry, and I'love to be a part of your
+                        team.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <!-- 1st Work Item -->
+                <div class="work">
+                    <img src="images/work-1.png" alt="Social Media App Design">
+                    <div class="layer">
+                      <h3>social media app</h3>
+                      <p>The app connects you to <br>
+                          talented people 
+                          around the<br> world.<br> Download it from 
+                          the Play<br> Ply Store.</p>
+                      <a href="#">.<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+                <!-- 2nd Work Item -->
+                <div class="work">
+                    <img src="images/work-2.png" alt="Music App Design">
+                    <div class="layer">
+                        <h3>music app</h3>
+                        <p>The app connects you to <br>
+                            talented people 
+                            around the<br> world.<br> Download it from 
+                            the<br> Ply Store.</p>
+                        <a href="#">.<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- 3rd Work Item -->
+                <div class="work">
+                    <img src="images/work-3.png" alt="Online Shopping App Design">
+                    <div class="layer">
+                        <h3>online shopping app</h3>
+                        <p>The app connects you to <br>
+                            talented people 
+                            around the<br> world.<br> Download it from 
+                            thea<br> Ply Store.</p>
+                        <a href="#">.<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://app.netlify.com/teams/fridaus/overview" class="btn">See more recently </a>
+        </div>
+    </div>
+    <!-- my projects====================================================================== -->
+    <div id="myprojects">
+        <div class="container">
+            
+            <h1 class="sub-title">My projects</h1>
+            <div class="projects-list">
+                <!-- 1st projects Item -->
+                <div class="projects">
+                    <img src="proimages/hangmaN.jpg" alt="hangm App Denasign">
+                    <div class="layer">
+                      <h3>hangman game app</h3>
+                     
+                        <play></play>
+                      <a href="https://fridaushangman.netlify.app/">play<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+                <!-- 2nd projects Item -->
+                <div class="projects">
+                    <img src="proimages/quiz.jfif" alt="quiz App ">
+                    <div class="layer">
+                        <h3>quiz app</h3>
+                        <a href="https://quizappfridaus.netlify.app/">play<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                       
+                    </div>
+                </div>
+                <!-- 3rd projects Item -->
+                <div class="projects">
+                    <img src="proimages/typing.jfif" alt="typing speed  app">
+                    <h3>typing speed</h3>
+                    <div class="layer">
+                        <h3>typing speed</h3>
+                        
+                            <a href="https://fridaustypingspeed.netlify.app/">play<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                       
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/fridaus" class="btn">mygithub</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+          
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p> <a href="mailto:ufridaus52@gmail.com" aria-label="Facebook Profile"><i class="fa-solid fa-envelope"></i></a> ufridaus52@gmail.com</p>
+                    <p><a href="#" aria-label="Phone" onclick="call()"><i class="fa-solid fa-phone"></i></a> 0787951809</p>
+                    <div class="social-icons">
+                        
+                     
+                       
+                      <p><i class="fa-brands fa-whatsapp"></i>  <a href="https://wa.me/+250787951809?text="hello ufridaus52@gmail.com! are you avaible">
+                          <button></i>Chat with us </button></a></p>
+                          
+                        
+                        
+                    </div>
+                    <a href="fridausi.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" >
+                        
+                        <input type="text" name="Name" placeholder="Your name" id="name" onkeyup="validateName()"  required>
+                       <span id="name-error" class="input"></span> 
+                        <input type="email" name="Email" placeholder="Your email" id="email" onkeyup="validateEmail()"  required>
+                        <span id="email-error"  class="input"></span> 
+                        <textarea name="Message" id="message" rows="6" placeholder=" you can write your message here" id="message" onkeyup=" validateMessage()" required></textarea>
+                        <span id="message-error"  class="input"></span><br>
+                        <button type="submit" class="btn btn2" onclick="return validateForm()">Submit</button>
+                    </form> 
+                    <span id="msg"> </span> 
+                    <span id="submit-error"> </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @fridaus. Made with <i class="fa-solid fa-heart">ambtion</i></p>
+        </div>
+    </div>
+   
+   
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw1mwMp062oy6UNCDpEGGuMVYsl6osfX3wFCs24gbC5Tpb1YmcwyOntiztWHHbDnvvDOQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg=document.getElementById("msg");
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{msg.innerHTML = "Message sent succefully"
+  setTimeout(function(){msg.innerHTML  = " "},3000)
+  form.reset()
+})
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<script src="portfoilio.js"></script>
+</body>
+</html>
+
